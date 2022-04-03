@@ -1,0 +1,71 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background: #222;
+    background-image: url("https://s1.1zoom.me/big3/981/Portugal_Autumn_506819.jpg") ;
+ 
+}
+
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width:100%;
+    max-width: 420px;
+    margin:1em;
+    font-family: sans-serif;
+}
+.city {
+    font-weight: 500;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height:3em;
+    width:3em;
+    outline: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 50px;
+    background:#7c7c7c2b; 
+    color:white;
+    font-family : sans-serif;
+    font-size:120%;
+    cursor: pointer;
+    width: calc(100% - 100px)
+
+}
+
+.description, .humidity {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.flex {
+    display:flex;
+    align-items: center;
+
+}
