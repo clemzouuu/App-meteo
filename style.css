@@ -6,7 +6,9 @@ body {
     margin:0;
     background: #222;
     background-image: url("https://s1.1zoom.me/big3/981/Portugal_Autumn_506819.jpg") ;
- 
+    background-size: cover; 
+    background-position: center;  
+    background-repeat: no-repeat;
 }
 
 
